@@ -95,8 +95,6 @@ paths:
         requestTemplates:
           application/json: "{\"statusCode\": 200}"
         type: mock
-x-amazon-apigateway-binary-media-types:
-  - '*/*'
 definitions:
   Empty:
     type: object
