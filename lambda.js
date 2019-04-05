@@ -53,7 +53,6 @@ const binaryMimeTypes = [
   'text/xml'
 ]
 
-app.use(compression())
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
