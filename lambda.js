@@ -46,7 +46,6 @@ const binaryMimeTypes = [
   'image/svg+xml',
   'text/comma-separated-values',
   'text/css',
-  'text/html',
   'text/javascript',
   'text/plain',
   'text/text',
