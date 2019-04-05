@@ -36,7 +36,7 @@ var settings = {
 // binaryMimeTypes below, then redeploy (`npm run package-deploy`)
 const binaryMimeTypes = [
   'application/javascript',
-  'application/json',
+  //'application/json',
   'application/octet-stream',
   'application/xml',
   'font/eot',
@@ -47,14 +47,14 @@ const binaryMimeTypes = [
   'image/svg+xml',
   'text/comma-separated-values',
   'text/css',
-  'text/html',
+  //'text/html',
   'text/javascript',
   'text/plain',
   'text/text',
   'text/xml'
 ]
 
-app.use(compression())
+//app.use(compression())
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
