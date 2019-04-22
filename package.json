@@ -43,6 +43,8 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "node-red": "^0.18.7",
-    "node-red-contrib-storage-s3": "git://github.com/sakazuki/node-red-contrib-storage-s3.git"
+    "node-red-contrib-storage-s3": "git://github.com/sakazuki/node-red-contrib-storage-s3.git",
+    "node-red-wprojectapp-db-config": "1.0.1",
+    "node-red-wprojectapp-time-entry": "1.0.26"
   }
 }
