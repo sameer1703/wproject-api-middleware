@@ -50,6 +50,6 @@
     "node-red-wprojectapp-project-list": "1.0.2",
     "node-red-wprojectapp-user-info": "1.0.0",
     "node-red-wprojectapp-project-user-info": "1.0.0",
-    "node-red-wprojectapp-task-list": "1.0.3"
+    "node-red-wprojectapp-task-list": "1.0.4"
   }
 }
