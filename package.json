@@ -47,9 +47,9 @@
     "node-red-wprojectapp-db-config": "1.0.6",
     "node-red-wprojectapp-time-entry": "1.0.40",
     "node-red-wprojectapp-edit-status": "1.0.1",
-    "node-red-wprojectapp-project-list": "1.0.2",
+    "node-red-wprojectapp-project-list": "1.0.3",
     "node-red-wprojectapp-user-info": "1.0.0",
     "node-red-wprojectapp-project-user-info": "1.0.0",
-    "node-red-wprojectapp-task-list": "1.0.4"
+    "node-red-wprojectapp-task-list": "1.0.6"
   }
 }
