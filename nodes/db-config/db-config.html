@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    RED.nodes.registerType('db-config',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            consul_url: {value:""},
+            vault_token: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"db-config";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="db-config">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-consul_url"><i class="icon-tag"></i>Consul Url</label>
+        <input type="text" id="node-input-consul_url" placeholder="Consul Url">
+    </div>
+    <div class="form-row">
+        <label for="node-input-vault_token"><i class="icon-tag"></i>Vault Token</label>
+        <input type="text" id="node-input-vault_token" placeholder="Vault Token">
+    </div> 
+</script>
+
+<script type="text/x-red" data-help-name="db-config">
+    <p>A simple node that converts the message payloads into all db-config characters</p>
+</script>

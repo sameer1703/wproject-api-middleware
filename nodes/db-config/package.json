@@ -1,0 +1,19 @@
+{
+  "name": "node-red-wprojectapp-db-config",
+  "version": "1.0.6",
+  "description": "",
+  "main": "db-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "db-config": "db-config.js"
+    }
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

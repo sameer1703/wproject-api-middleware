@@ -1,0 +1,20 @@
+{
+  "name": "node-red-wprojectapp-time-entry",
+  "version": "1.0.41",
+  "main": "my-sql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "my-sql": "my-sql.js"
+    }
+  },
+  "description": "",
+  "dependencies": {
+    "mustache": "^3.0.1",
+    "mysql": "^2.17.0"
+  }
+}
