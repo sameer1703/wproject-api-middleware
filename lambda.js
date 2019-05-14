@@ -36,6 +36,7 @@ var settings = {
 // binaryMimeTypes below, then redeploy (`npm run package-deploy`)
 const binaryMimeTypes = [
   'application/javascript',
+
   'application/octet-stream',
   'application/xml',
   'font/eot',
@@ -46,6 +47,7 @@ const binaryMimeTypes = [
   'image/svg+xml',
   'text/comma-separated-values',
   'text/css',
+
   'text/javascript',
   'text/plain',
   'text/text',
